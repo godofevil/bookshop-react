@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.sass'
+import './style.sass';
 
 const Contact = () =>
     <div className="contacts" id="contact">
@@ -19,7 +19,7 @@ const Contact = () =>
                            1701 N. Charles Street Baltimore, MD 21202
                       </div>
                       <div className="contacts__item--sm">
-                           MON–FRI 09.00 — 18.00 <br/>
+                           MON–FRI 09.00 — 18.00
                            SAT–SUN 10.00 — 18.00
                       </div>
                  </div>

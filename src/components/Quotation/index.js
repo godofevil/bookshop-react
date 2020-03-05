@@ -1,6 +1,6 @@
 import React from 'react';
-import './style.sass'
-import background from './img/quotation.png'
+import './style.sass';
+import background from './img/quotation.png';
 
 const Quotation = () =>
     <div className="quotation" id="author">

@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.sass'
-import client from './img/client.png'
-import star from './img/star.png'
-import halfstar from './img/halfstar.png'
+import './style.sass';
+import client from './img/client.png';
+import star from './img/star.png';
+import halfstar from './img/halfstar.png';
 
 const Reviews = () =>
     <div className="reviews" id="reviews">

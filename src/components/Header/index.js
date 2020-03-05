@@ -1,8 +1,8 @@
 import React from 'react';
-import Responsive from './../Responsive'
-import './style.sass'
-import logo from './img/logo.png'
-import login from './img/login.svg'
+import Responsive from './../Responsive';
+import './style.sass';
+import logo from './img/logo.png';
+import login from './img/login.svg';
 
 const Header = ({menu}) =>
     <header className="header">

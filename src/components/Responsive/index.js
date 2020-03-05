@@ -1,8 +1,7 @@
 import React from 'react';
-import './style.sass'
-import menuIcon from './img/menu.svg'
-import closeIcon from './img/close.svg'
-
+import './style.sass';
+import menuIcon from './img/menu.svg';
+import closeIcon from './img/close.svg';
 
 class Responsive extends React.Component {
      constructor(props) {

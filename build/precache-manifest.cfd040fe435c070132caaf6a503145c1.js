@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e082e20ef6cbb2accd54282684c275ac",
+    "revision": "6e844901b731d223c4865e19b4891374",
     "url": "/bookshop-react/index.html"
   },
   {
-    "revision": "1f20f2935e9cd273da27",
-    "url": "/bookshop-react/static/css/main.978b6652.chunk.css"
+    "revision": "66ca9ab65a3461dafa75",
+    "url": "/bookshop-react/static/css/main.e5c51f2b.chunk.css"
   },
   {
     "revision": "e22d62f07578051e41a0",
@@ -16,12 +16,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bookshop-react/static/js/2.aa2da7c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f20f2935e9cd273da27",
-    "url": "/bookshop-react/static/js/main.a17a3580.chunk.js"
+    "revision": "66ca9ab65a3461dafa75",
+    "url": "/bookshop-react/static/js/main.b66d205e.chunk.js"
   },
   {
     "revision": "0c1cbf7338335047fcea",
     "url": "/bookshop-react/static/js/runtime-main.6a91bf5d.js"
+  },
+  {
+    "revision": "a79b68fcda60ce8f337f51d3220ef2a5",
+    "url": "/bookshop-react/static/media/Montserrat-Bold.a79b68fc.woff"
+  },
+  {
+    "revision": "4fff33ac95aaed9f68e1471c805558ec",
+    "url": "/bookshop-react/static/media/Montserrat-Light.4fff33ac.woff"
+  },
+  {
+    "revision": "de4a911e831ca01751ab001a54de34dd",
+    "url": "/bookshop-react/static/media/Montserrat-Regular.de4a911e.woff"
+  },
+  {
+    "revision": "3d2d13853665147fb8c2353d61c077ce",
+    "url": "/bookshop-react/static/media/Montserrat-SemiBold.3d2d1385.woff"
   },
   {
     "revision": "3d99fe52a2b797200463182d8363124f",

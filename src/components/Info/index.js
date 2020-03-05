@@ -14,17 +14,17 @@ const Info = () =>
                  copies sold all over the world
             </div>
             <div className="info__socials">
-                 <a href="fb.com">
+                 <a href="https://fb.com">
                      <img src={facebook} alt="Facebook"/>
                  </a>
-                 <a href="instagram.com">
+                 <a href="https://instagram.com">
                      <img src={instagram} alt="Instagram"/>
                  </a>
-                 <a href="twitter.com">
+                 <a href="https://twitter.com">
                      <img src={twitter} alt="Twitter"/>
                  </a>
             </div>
         </div>
     </div>
-    
+
 export default Info;

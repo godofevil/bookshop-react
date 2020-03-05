@@ -28,8 +28,10 @@
         padding: 70px 0 20px 0
         z-index: 2
         transition: opacity .3s ease-in-out
+        pointer-events: none
         &--visible
-            opacity: 1            
+            opacity: 1
+            pointer-events: auto
     &__close
         @include button
     img

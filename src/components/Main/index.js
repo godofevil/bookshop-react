@@ -1,6 +1,6 @@
 import React from 'react';
-import './style.sass'
-import background from './img/main.png'
+import './style.sass';
+import background from './img/main.png';
 
 const Main = () =>
     <main className="main">

@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './components/Header'
-import Main from './components/Main'
-import Steps from './components/Steps'
-import Preview from './components/Preview'
-import Reviews from './components/Reviews'
-import Info from './components/Info'
-import Quotation from './components/Quotation'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Header from './components/Header';
+import Main from './components/Main';
+import Steps from './components/Steps';
+import Preview from './components/Preview';
+import Reviews from './components/Reviews';
+import Info from './components/Info';
+import Quotation from './components/Quotation';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends React.Component {
      constructor(props) {

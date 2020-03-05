@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.sass'
-import logo from './img/logo-footer.png'
-import facebook from './img/facebook.svg'
-import instagram from './img/instagram.svg'
-import pinterest from './img/pinterest.svg'
+import './style.sass';
+import logo from './img/logo-footer.png';
+import facebook from './img/facebook.svg';
+import instagram from './img/instagram.svg';
+import pinterest from './img/pinterest.svg';
 
 const Footer = ({menu}) =>
     <div className="footer">

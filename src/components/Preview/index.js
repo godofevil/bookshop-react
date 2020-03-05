@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.sass';
-import printer from './img/printer.png'
-import book from './img/open-book.png'
-import file from './img/file.png'
+import printer from './img/printer.png';
+import book from './img/open-book.png';
+import file from './img/file.png';
 
 const Preview = () =>
     <div className="preview" id="preview">
@@ -43,7 +43,7 @@ const Preview = () =>
                                   </div>
                                   <div className="preview__description">
                                        <div className="preview__text--bg">
-                                            Ready to print
+                                            Easy to read
                                        </div>
                                        <div className="preview__text--sm">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.

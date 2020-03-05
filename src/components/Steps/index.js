@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.sass'
-import book from './img/book.png'
-import cash from './img/cash-register.png'
-import support from './img/support.png'
-import reading from './img/reading.png'
+import './style.sass';
+import book from './img/book.png';
+import cash from './img/cash-register.png';
+import support from './img/support.png';
+import reading from './img/reading.png';
 
 const Steps = () =>
     <div className="steps" id="steps">
