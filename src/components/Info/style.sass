@@ -1,0 +1,47 @@
+.info
+    background: url('./img/main.png'), linear-gradient(90deg, #3da394 0%, #194790 100%)
+    background-position: right -9% top 50%
+    background-repeat: no-repeat
+    height: 587px
+    letter-spacing: 0.02em
+    line-height: 65px
+    &__wrap
+        padding:
+            top: 220px
+            bottom: 200px
+        text-align: center
+    &__text--bg
+        font-size: 100px
+        line-height: 65px
+        font-weight: 600
+    &__text--sm
+        font-size: 18px
+        font-weight: 300
+    &__socials a
+        margin-right: 10px
+        &:last-child
+            margin-right: 0
+        & img:hover
+            animation: rotate-hor-center 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both
+
+@media (max-width: 1200px) and (min-width: 961px)
+    .info__wrap
+        text-align: left
+
+@media(max-width: 960px)
+    .info
+        background: linear-gradient(90deg, #3da394 0%, #194790 100%)
+        height: auto
+        &__wrap
+            padding-top: 50px
+            padding-bottom: 0
+
+@media(max-width: 640px)
+    .info__text--bg
+        font-size: 70px
+
+@keyframes rotate-hor-center
+  0%
+    transform: rotateX(0)
+  100%
+    transform: rotateX(-360deg)

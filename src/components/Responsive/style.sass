@@ -1,0 +1,50 @@
+@mixin button
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    width: 50px
+    height: 40px
+    top: 10px
+    right: 10px
+    box-sizing: border-box
+.responsive
+    &__button
+        @include button
+        display: none
+        border-radius: 10px
+        @media (max-width: 640px)
+            display: flex
+    &__menu
+        display: flex
+        opacity: 0
+        position: absolute
+        background: #fffffff0
+        width: 100%
+        height: auto
+        top: 0
+        left: 0
+        justify-content: center
+        padding: 70px 0 20px 0
+        z-index: 2
+        transition: opacity .3s ease-in-out
+        &--visible
+            opacity: 1            
+    &__close
+        @include button
+    img
+        width: 35px
+.menu
+    &__item
+        padding-bottom: 20px
+    &__link
+        font-size: 1.5rem
+        line-height: 20px
+        font-weight: 700
+        color: #1371a6
+
+.submenu__list
+    .menu__item
+        padding: 5px 0 5px 20px
+    .menu__link
+        font-size: 1.3rem
